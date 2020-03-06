@@ -6,10 +6,12 @@
     <link rel="stylesheet" href="styleTEST.css">
     <title>Kaleidoskop</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
-
+    <link rel="stylesheet" href="touch-sideswipe.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="touch-sideswipe.js"></script>
 
     <script type="text/javascript">
       function ul(index) {
@@ -26,7 +28,7 @@
   </head>
   <body class="container" style="background-image: url('img/kaleidoskop2.jpg');">
 
-    <nav class="menu navStyle">
+    <nav class="menu navStyle touch-side-swipe" id="touchSideSwipe">
       <input id ="menu__toggle" type="checkbox" class='menu__toggle'/>
       <label for="menu__toggle" class="menu__toggle-label">
         <svg preserveAspectRatio='xMinYMin' viewBox='0 0 24 24'>
